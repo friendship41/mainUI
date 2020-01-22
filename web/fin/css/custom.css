@@ -1,0 +1,404 @@
+/*--------------------------------------------------------------
+
+  Template Name: Asbab eCommerce HTML5 Template.
+  Description: Asbab is a unique website template designed in HTML with a simple & beautiful look.
+
+---------------------------------------------------------------*/
+
+/* ----------------------------------------------------
+	You can put your custom css code here:
+-------------------------------------------------------*/
+
+/*-- login --*/
+/*-- sap --*/
+.sap_tabs {
+    margin: 0 auto;
+    -webkit-appearance: none;
+}
+.resp-tab-item{
+    color: #212121;
+    font-size:1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding:5px 30px;
+    margin:5px;
+    display: inline-block;
+    list-style: none;
+    outline: none;
+    border:1px solid;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    -webkit-appearance: none;
+}
+.resp-tab-item:hover {
+    background-color:transparent;
+    text-shadow: none;
+    color: #c43b68;
+}
+.resp-tab-active,.resp-tab-active:hover {
+    border-color: #c43b68;
+    text-shadow: none;
+    color: #fff;
+    background: #c43b68;
+}
+h2.resp-accordion {
+    cursor: pointer;
+    padding: 5px;
+    display: none;
+}
+.resp-tab-content {
+    display: none;
+}
+.resp-content-active, .resp-accordion-active {
+    display: block;
+}
+/*-- //sap --*/
+.modal-body-sub {
+    padding: 3em !important;
+}
+.modal-title {
+    font-size: 1.5em;
+    color: #212121;
+    padding-left: 1.5em;
+}
+.register input[type="text"],.register input[type="email"],.register input[type="password"]{
+    outline:none;
+    border:1px solid #DFDFDF;
+    background:#f5f5f5;
+    padding:10px;
+    color:#212121;
+    width:100%;
+    font-size:14px;
+}
+.register input[type="password"],.register input[type="email"]{
+    margin:1em 0 0;
+}
+div#horizontalTab ul {
+    padding-bottom: 1.5em;
+}
+::-webkit-input-placeholder{
+    color:#212121 !important;
+}
+.register input[type="submit"]{
+    outline:none;
+    border:none;
+    background:#212121;
+    padding:10px 0;
+    color:#fff;
+    width:40%;
+    font-size:1em;
+    text-transform:uppercase;
+    margin:2em 0 0;
+}
+.register input[type="submit"]:hover{
+    background: #c43b68;
+}
+div#OR {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #C2C2C2;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    background: #FFFFFF;
+}
+h3.other-nw {
+    font-size: 1.2em;
+    color: #212121;
+    text-align: right;
+    margin:1em 0 4em;
+}
+/* ---------- SOCIAL ---------- */
+
+.social {
+    position: relative;
+    height: 3em;
+    width: 13.5em;
+    margin: 0 auto;
+}
+
+.social li {
+    display: block;
+    height: 3em;
+    line-height: 3em;
+    margin: 0.8em;
+    position: absolute;
+    -webkit-transition: -webkit-transform .7s;
+    -moz-transition: -moz-transform .7s;
+    -ms-transition: -ms-transform .7s;
+    -o-transition: -o-transform .7s;
+    transition: transform .7s;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    text-align: center;
+    width: 3em;
+}
+.social a {
+    color: #fffdf0;
+    display: block;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 3em;
+}
+.social li:hover {
+    -webkit-transform: scale(1.15) rotate(45deg);
+    -moz-transform: scale(1.15) rotate(45deg);
+    -ms-transform: scale(1.15) rotate(45deg);
+    -o-transform: scale(1.15) rotate(45deg);
+    transform: scale(1.15) rotate(45deg);
+}
+.social_facebook {
+    background: #3b5998;
+    left: 0;
+    top: 0%;
+}
+.entypo-facebook:before {
+    content: " ";
+    background: url(../images/img-sp.png) no-repeat 7px -125px;
+    display: block;
+    width: 3em;
+    height: 3em;
+}
+.social_twitter{
+    background: #FAE100;
+    top: 0%;
+    left: 50%;
+}
+.entypo-twitter:before {
+    content: " ";
+    background:url(../images/kakao2.png) no-repeat;
+    display: block;
+    width: 3em;
+    height: 3em;
+}
+.social_dribbble {
+    background: #dc4e41;
+    left: 25%;
+    bottom: 0;
+}
+.entypo-dribbble:before {
+    content: " ";
+    background:url(../images/img-sp.png) no-repeat -74px -125px;
+    display: block;
+    width: 3em;
+    height: 3em;
+}
+.social_behance {
+    background: #1EC800;
+    bottom: 0;
+    left: 75%;
+}
+.entypo-behance:before {
+    content: " ";
+    background:url(../images/naver5.png) no-repeat;
+    display: block;
+    width: 3em;
+    height: 3em;
+}
+/*-- //login --*/
+
+
+/* MODAL 부분 */
+
+/*--banner-modal--*/
+.modal-open .modal {
+    background: rgba(0, 0, 0, 0.48);
+}
+.modal.bnr-modal {
+    padding: 0 1em !important;
+}
+.modal-body {
+    padding:0em 2em 2em;
+}
+.modal-dialog {
+    margin: 6em auto 0;
+}
+.modal-header {
+    border: none;
+    min-height: 2.5em;
+    padding:0em 1em 0;
+}
+.modal button.close {
+    color: #ff5063;
+    opacity: 1;
+    font-size: 2em;
+    outline: none;
+    text-align: right;
+    width: 100%;
+    margin-top: 6px;
+}
+.modal-body p {
+    margin-top: 1em;
+    font-size: 1em;
+    font-weight: 400;
+}
+.nav-tabs > li > a {
+    font-size: 1em;
+    color: #212121;
+    font-family: 'Glegoo', serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 0;
+    border:none;
+    border-bottom: 1px solid #3c43a4;
+    margin: 0;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color:#3c43a4;
+    color:#fff;
+    border: none;
+    border-bottom: 1px solid #3c43a4;
+}
+.nav-tabs > li > a:hover {
+    border-bottom: 1px solid #3c43a4;
+    color: #3c43a4;
+}
+.nav-tabs{
+    border:none;
+    color: #3c43a4;
+}
+.agile_ecommerce_tab_left {
+    padding-left: 0;
+    text-align: center;
+}
+.agile_ecommerce_tabs {
+    padding: 2em 0 0;
+}
+.agile_ecommerce_tab_left h5{
+    margin:2em 0 0;
+}
+.agile_ecommerce_tab_left h5 a {
+    font-size: 1.2em;
+    color: #ff5063;
+    text-decoration: none;
+    font-weight: 700;
+    -webkit-transition:.5s all;
+    -moz-transition:.5s all;
+    -o-transition:.5s all;
+    transition:.5s all;
+}
+.agile_ecommerce_tab_left h5 a:hover{
+    color:#3c43a4;
+}
+.simpleCart_shelfItem p{
+    font-size: 1.2em;
+    color: #212121;
+    margin: 0.5em 0 1em;
+    font-weight: 600;
+}
+.simpleCart_shelfItem p span{
+    color: #999;
+    font-size: .8em;
+    text-decoration: line-through;
+    padding-right: 1em;
+    font-weight: 300;
+}
+.agile_ecommerce_tab_left p i{
+    font-style:normal;
+}
+.simpleCart_shelfItem button.w3ls-cart {
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: .5em 1.5em;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    background: transparent;
+    outline: none;
+    -webkit-transition:.5s all;
+    -moz-transition:.5s all;
+    transition:.5s all;
+}
+.simpleCart_shelfItem button.w3ls-cart:hover{
+    background: #c43b68;
+    color:#fff;
+    border:1px solid #c43b68;
+}
+
+/*.modal_body_left {*/
+/*    float: left;*/
+/*    width: 40%;*/
+/*}*/
+/*.modal_body_right {*/
+/*    float: right;*/
+/*    width: 60%;*/
+/*}*/
+.simpleCart_shelfItem button.w3ls-cart {
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: .5em 1.5em;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    background: transparent;
+    outline: none;
+    -webkit-transition:.5s all;
+    -moz-transition:.5s all;
+    transition:.5s all;
+}
+.simpleCart_shelfItem button.w3ls-cart:hover{
+    background: #c43b68;
+    color:#fff;
+    border:1px solid #c43b68;
+}
+.simpleCart_shelfItem p{
+    font-size: 1.2em;
+    color: #212121;
+    margin: 0.5em 0 1em;
+    font-weight: 600;
+}
+.simpleCart_shelfItem p span{
+    color: #999;
+    font-size: .8em;
+    text-decoration: line-through;
+    padding-right: 1em;
+    font-weight: 300;
+}
+
+
+.modal_body_right h4{
+    font-size:1.6em;
+    color:#ff5063;
+    text-transform: capitalize;
+}
+.modal_body_right p{
+    margin:1.5em 0;
+    line-height:1.8em;
+    color:#999;
+    font-size: 14px !important;
+}
+.modal_body_right_cart p {
+    font-size: 1.2em !important;
+    color: #212121;
+    margin: 0em 0 1em !important;
+}
+.modal_body_right h5{
+    font-size: 1em;
+    color: #212121;
+    margin: 2em 0 1em;
+}
+.modal_body_left img {
+    width: 100%;
+}
+/* //MODAL 부분 */
