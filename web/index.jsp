@@ -12,5 +12,6 @@
   </head>
   <body>
   $END$
+  <button onclick="location.href='ready/community/review-list.html'">리뷰페이지이이이</button>
   </body>
 </html>

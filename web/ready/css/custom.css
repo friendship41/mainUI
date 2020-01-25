@@ -402,3 +402,137 @@ h3.other-nw {
     width: 100%;
 }
 /* //MODAL 부분 */
+
+
+/* 뱃지부분 */
+
+.badge-primary {
+    color: #212529;
+    background-color: #4fbfa8;
+}
+
+.badge-primary[href]:hover, .badge-primary[href]:focus {
+    color: #212529;
+    text-decoration: none;
+    background-color: #3aa18c;
+}
+
+.badge-secondary {
+    color: #fff;
+    background-color: #6c757d;
+}
+
+.badge-secondary[href]:hover, .badge-secondary[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #545b62;
+}
+
+.badge-success {
+    color: #fff;
+    background-color: #28a745;
+}
+
+.badge-success[href]:hover, .badge-success[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #1e7e34;
+}
+
+.badge-info {
+    color: #fff;
+    background-color: #17a2b8;
+}
+
+.badge-info[href]:hover, .badge-info[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #117a8b;
+}
+
+.badge-warning {
+    color: #212529;
+    background-color: #ffc107;
+}
+
+.badge-warning[href]:hover, .badge-warning[href]:focus {
+    color: #212529;
+    text-decoration: none;
+    background-color: #d39e00;
+}
+
+.badge-danger {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.badge-danger[href]:hover, .badge-danger[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #bd2130;
+}
+
+.badge-light {
+    color: #212529;
+    background-color: #f8f9fa;
+}
+
+.badge-light[href]:hover, .badge-light[href]:focus {
+    color: #212529;
+    text-decoration: none;
+    background-color: #dae0e5;
+}
+
+.badge-dark {
+    color: #fff;
+    background-color: #343a40;
+}
+
+.badge-dark[href]:hover, .badge-dark[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #1d2124;
+}
+
+/*추가 뱃지*/
+.badge-cancel {
+    color: #fff;
+    background-color: #dc3545;
+    padding: 7px;
+}
+.badge-complete {
+    color: #fff;
+    background-color: #28a745;
+    padding: 7px;
+}
+.badge-nowGo {
+    color: #fff;
+    background-color: #17a2b8;
+    padding: 7px;
+}
+.badge-payComp {
+    color: #212529;
+    background-color: #ffc107;
+    padding: 7px;
+}
+
+/*주문 상세페이지 헤더부분 살짝 수정*/
+.order-details .order-details__title_big{
+    padding: 30px 0;
+    margin: 0 15px;
+    border-bottom: 1px solid #ebebeb;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: "poppins";
+    font-size: 24px;
+    font-weight: 600;
+    color: #3f3f3f;
+}
+
+/*리뷰 페이지 제목올렸을때 모달을 위한 처리*/
+.blog__details h2 span:hover{
+    color: #c43b68;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
