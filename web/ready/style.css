@@ -2417,7 +2417,7 @@ a.shipping-calculator-button:hover{
   color: #3f3f3f;
 }
 .htc__cart__total {
-    padding-left: 110px;
+    /*padding-left: 110px;*/
 }
 
 .cart__desk__list {

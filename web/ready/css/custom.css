@@ -536,3 +536,218 @@ h3.other-nw {
     cursor: pointer;
     transition: all 0.4s ease 0s;
 }
+
+
+/*은영씨코드*/
+/*  Q&A css */
+#shipping .wishlist-table .product-remove {
+    padding: 0 15px;
+    width: 100px;
+}
+
+#shipping .wishlist-table .product-name {
+    width: 600px;
+}
+
+#shipping .wishlist-table .product-price {
+    width: 150px;
+}
+
+#shipping .wishlist-table .product-stock-stauts {
+    width: 100px;
+}
+
+/* 상품 상세페이지 버튼 css */
+.sin__desc ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+.qna-write-btn {
+    background: #c43b68;
+    color: #fff;
+    float: right;
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 15px;
+    height: 30px;
+    /*line-height: 50px;*/
+    padding: 0 10px;
+    transition: 0.3s;
+    margin-top: 15px;
+    border: none;
+}
+
+.qna-write-btn:hover {
+    background: #222222 none repeat scroll 0 0;
+    color: #fff;
+}
+
+/* file upload 버튼 css */
+.comment__form input[type="file"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.comment__form label {
+    display: inline-block;
+    padding: .5em .75em;
+    color: #999;
+    font-size: inherit;
+    line-height: normal;
+    vertical-align: middle;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    border-bottom-color: #e2e2e2;
+    border-radius: .25em;
+    margin-top: 15px;
+}
+
+.file__name {
+    display: inline-block;
+    padding: .5em .75em;
+    /* label의 패딩값과 일치 */
+    font-size: inherit;
+    font-family: inherit;
+    line-height: normal;
+    vertical-align: middle;
+    background-color: #f5f5f5;
+    border: 1px solid #ebebeb;
+    border-bottom-color: #e2e2e2;
+    border-radius: .25em;
+    -webkit-appearance: none;
+    /* 네이티브 외형 감추기 */
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* imaged preview */
+.file__box .upload-display {
+    /* 이미지가 표시될 지역 */
+    margin-bottom: 5px;
+}
+
+@media(min-width: 768px) {
+    .file__box .upload-display {
+        display: inline-block;
+        margin-right: 5px;
+        margin-bottom: 0;
+    }
+}
+
+.file__box .upload-thumb-wrap {
+    /* 추가될 이미지를 감싸는 요소 */
+    display: inline-block;
+    width: 60px;
+    padding: 2px;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.file__box .upload-display img {
+    /* 추가될 이미지 */
+    display: block;
+    max-width: 100%;
+    width: 100% \9;
+    height: auto;
+}
+
+
+/*인용씨 코드*/
+
+/*New Code*/
+
+.box__layout {
+    margin: 0 90px;
+}
+.ht__cat__thumb a img {
+    width: 100%;
+}
+.slick-initialized .slick-slide {
+    outline: none;
+}
+
+/* market-list �Ǹ� ���� select*/
+.htc__grid__top__market__list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+
+}
+
+/* market-list �Ǹ� ���� select border���� �߰�*/
+.ht__select{
+    border:2px solid black;
+    background:black;
+}
+
+
+/* market-list �۾��� ��ư*/
+.write__market__list a {
+    text-transform: uppercase;
+    background: #333333;
+    color: #fff;
+    padding: 0 22px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.4s;
+    margin-left: 1100px;
+}
+
+/* market-list �Ǹ� ���� ��ư*/
+.htc__grid__top__market__form {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1100px;
+}
+
+/* about as �۾�ü �߰�*/
+.ft__details p{
+    font-family: 'arial';
+    font-size: 3px;
+}
+
+/* checkout point����  */
+.checkout__point input{
+    width:40px;
+    font-size: 15px;
+    border:1px solid gray;
+}
+
+.checkout__point {
+    text-align:center;
+    font-family: 'arial';
+}
+
+/* checkout �����ϱ� ��ư*/
+
+
+.checkout__purchase a {
+    text-transform: uppercase;
+    background: #333333;
+    color: #fff;
+    padding: 0 22px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.4s;
+    margin-left: 1100px;
+}
