@@ -373,7 +373,7 @@
                                     <h4 class="title__line--5">총 2개의 리뷰가 있습니다.</h4>
                                     <div class="ht__comment__content">
                                         <!-- Start Single Comment -->
-                                        <div class="comment">
+                                        <div class="comment_c">
                                             <div class="comment__thumb">
                                                 <img src="../images/comment/1.png" alt="comment images">
                                             </div>
@@ -602,12 +602,12 @@
 <script type="text/javascript">
 $(document).ready(function() {
     var fileTarget = $('.file__box .file-upload');
-    fileTarget.on('change', function() { // 값이 변경되면 
-        if (window.FileReader) { // modern browser 
+    fileTarget.on('change', function() { // 값이 변경되면
+        if (window.FileReader) { // modern browser
             var filename = $(this)[0].files[0].name;
-        } else { // old IE 
-            var filename = $(this).val().split('/').pop().split('\\').pop(); // 파일명만 추출 
-        } // 추출한 파일명 삽입 
+        } else { // old IE
+            var filename = $(this).val().split('/').pop().split('\\').pop(); // 파일명만 추출
+        } // 추출한 파일명 삽입
         $(this).siblings('.file__name').val(filename);
     });
 });

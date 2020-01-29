@@ -488,11 +488,12 @@ input:focus {
 }
 textarea {
     resize: none;
-    background: #c43b68;
-    border: 1px solid #c43b68;
+    background: transparent;
+    border: 1px solid;
     padding: 10px;
     width: 100%;
     font-size: 14px;
+    min-height: 160px;
 }
 textarea:focus {
     background: transparent;
@@ -744,9 +745,5 @@ textarea:-ms-input-placeholder { / IE 10+ /
   color: #444;
   opacity: 1;
 }
-
-
-
-
 
 

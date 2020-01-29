@@ -1,11 +1,17 @@
 <!doctype html>
 <html class="no-js" lang="kor">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Checkout || Asbab - eCommerce HTML5 Template</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/JavaScript" src="http://code.jquery.com/jquery-1.7.min.js"></script>
+
+	<script type="text/JavaScript" src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
+
 
     <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
@@ -34,9 +40,21 @@
     <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
 
 
-    <script>
+    <script type="text/javascript">
         function loginModal() {
             $('#myModal88').modal('show');
+        }
+        function openDaumZipAddress() {
+            new daum.Postcode({
+                oncomplete:function(data) {
+                    $("#postcode1").val(data.address);
+                    $("#postcode2").focus();
+                    // $("#zonecode").val(data.zonecode);
+                    // $("#address").val(data.address);
+                    // $("#address_etc").focus();
+                    console.log(data);
+                }
+            }).open();
         }
     </script>
 </head>
@@ -251,10 +269,82 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Start comment Form --> <!--여기부터다시수정하면됨!!!!!-->
+
+                    <div class="col-lg-8">
+                        <div class="ht__comment__form">
+                            <h4 class="title__line--5">배송지 목록</h4>
+                            <div class="ht__comment__form__inner">
+
+                                <div class="comment__form">
+                                    <script src="https://ssl.daumcdn.net/dmaps/map_js_init/postcode.v2.js"></script>
+                                    <select class="ht__select">
+                                            <option>선택하세요</option>
+                                            <option>주소1</option>
+                                            <option>주소2</option>
+                                            <option>주소3</option>
+                                        </select>
+                                    <input id="postcode1" value="" type="text" placeholder=" 주소 *">
+                                    <input id="postcode2" value="" type="text" placeholder="상세 주소 *">
+                                    <div class="ht__comment__btn--2 mt--30">
+                                        <a class="fr__btn" href="#">수정</a>
+                                        <a class="fr__btn" href="#">삭제</a>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="ht__comment__btn--2 mt--30">
+                                   <input type="button" onClick="openDaumZipAddress();" value="주소 찾기"/>
+                                   <br>
+                                 </div>
+                            </div>
+
+
+                        </div>
+                        <div class="ht__comment__form">
+                            <h4 class="title__line--5">비밀번호 변경</h4>
+                            <div class="ht__comment__form__inner">
+                                <div class="comment__form">
+                                    <input type="text" placeholder="현재 비밀번호 *">
+                                    <input type="email" placeholder="새 비밀번호 *">
+                                    <input type="text" placeholder="비밀번호 확인">
+                                </div>
+                            </div>
+                            <div class="ht__comment__btn--2 mt--30">
+                            <a class="fr__btn" href="#">수정</a>
+
+                            </div>
+
+                        </div>
+                        <div class="ht__comment__form">
+                            <h4 class="title__line--5">*회원 탈퇴*</h4>
+                            <div class="ht__comment__form__inner">
+                                <div class="comment__form">
+                                    <input type="text" placeholder="현재 비밀번호 *">
+
+                                </div>
+                            </div>
+                            <div class="ht__comment__btn--2 mt--30">
+                            <a class="fr__btn" href="#">탈퇴</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- cart-main-area end -->
+
+
+
+
+
+
+
+
+
+
         <!-- Start Brand Area -->
         <div class="htc__brand__area bg__cat--4">
             <div class="container">
@@ -277,6 +367,7 @@
             </div>
         </div>
         <!-- End Brand Area -->
+
         <!-- Start Footer Area -->
         <footer id="htc__footer">
             <!-- Start Footer Widget -->
